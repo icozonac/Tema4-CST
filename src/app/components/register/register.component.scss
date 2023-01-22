@@ -1,0 +1,19 @@
+form {
+  width: 500px;
+  animation: slideDown 1s forwards ease-in-out;
+  backdrop-filter: saturate(100%) blur(10px);
+  color: white;
+}
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
